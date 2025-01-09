@@ -1,4 +1,3 @@
-// import React from "react";
 import { useTodos } from "../provider/Todo";
 import { useSearchParams } from "react-router-dom";
 
