@@ -11,7 +11,7 @@ interface Todo {
   createdAt: Date;
 }
 
-interface TodosContext {
+interface TodosContext { 
   todos: Todo[];
   handleAddTodo: (task: string) => void;
   toggleTodoAsCompleted: (id: string) => void;
